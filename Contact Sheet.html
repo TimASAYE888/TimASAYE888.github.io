@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <Title>Practice Contact Sheet</Title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a practice contact sheet for my Web Development Class">
+    <meta name="Keywords" content="Practcie, Contact, Sheet, Web Development, Class">
+    <meta name="Viewport" content="width=device-width, initial-scale-1.0">
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        header{
+            font-size: xx-large;
+            text-decoration: underline;
+            margin-bottom: 1.5rem;
+            color: brown;
+            position: absolute;
+            top: 4vh;
+        }
+        #contact{
+            line-height: 5;
+            color: brown;
+            position: absolute;
+            Top: 10vh;
+        }
+        .textbox{
+            height: 225px;
+            width: 400px;
+        }
+        #textbox{
+            position:absolute;
+            top: 85vh;
+        }
+        #picture{
+            position: absolute;
+            top: 1vh;
+            left: 40vh;
+        }
+        #comment{
+            position: absolute;
+            top: 80vh;
+            color: brown;
+        }
+    </style>
+    </head>
+    <body>
+        <header>Anime Contact Sheet</header>
+        <div id="contact">
+            <div>
+                First Name <input type="Name" name="First Name" placeholder="First Name">
+            </div>
+            <div>
+                Last Name <input type="Name" name="Last Name" Placeholder="Last Name">
+                <div>
+                    Date of Birth <input type="Age Information" name="Date of Birth" placeholder="mm/dd/yy">
+                </div>
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="Gender">
+                    <option value="--Select--">--Select--</option>
+                    <Option Value="Male">Male</Option>
+                    <option Value="Female">Female</option>
+                </select>
+                <div>
+                    Email Adress <input type="Email" name="Email" placeholder="example123@Anime.com">
+                </div>
+                <div>
+                    Phone Number <input type="Phone Number" name="phone number" placeholder="Phone Number">
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="comment">
+            Comment Your Favorite Anime Here:
+        </div>
+        <div id="textbox">
+            <textarea class="textbox" placeholder="Comment!"></textarea>
+        </div>
+        <div id="picture">
+            <img src="https://i.pinimg.com/originals/52/42/c0/5242c019a09d678100bd3b68a3bff589.png" height="80px" width="90px">
+        </div>
+    </body>
+    </html>
